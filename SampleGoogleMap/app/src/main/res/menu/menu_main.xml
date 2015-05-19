@@ -5,9 +5,30 @@
     tools:context=".MainActivity">
 
     <item
-        android:id="@+id/action_settings"
-        android:title="@string/action_settings"
+        android:id="@+id/map_type_none"
+        android:title="@string/map_type_none"
         android:orderInCategory="100"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/map_type_normal"
+        android:title="@string/map_type_normal"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/map_type_satellite"
+        android:title="@string/map_type_satellite"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/map_type_Terrain"
+        android:title="@string/map_type_Terrain"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/map_type_hybrid"
+        android:title="@string/map_type_hybrid"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
 
 </menu>
